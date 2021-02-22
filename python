@@ -1,0 +1,10 @@
+print('Hello, what is your name?) #ask for their name
+myName= input()
+print('Hello,'+ myname )
+print('It is good to meet you'+myName)
+print('Do you want to play a game?')
+Join = input('Would you like to join me?')
+if Join == 'yes' or 'Yes':
+  print("Great," + myName + '!')
+else:
+  print(':(')
