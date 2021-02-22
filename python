@@ -14,9 +14,7 @@ if pl == 'python' or 'Python':
   print('Congrats! You won!')
 else: 
   print(':( you lost')
-print (' I have homeworks at math, could you help me?')
-x=1
-y=2
+print (' A math exercise. Do you know the answer?')
 print('How much is 1+2? Write the answer in letters')
 number=input()
 if number == 'three':
