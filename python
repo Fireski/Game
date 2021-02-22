@@ -1,10 +1,26 @@
-print('Hello, what is your name?) #ask for their name
+print('Hello, what is your name?') #ask for their name
 myName= input()
-print('Hello,'+ myname )
-print('It is good to meet you'+myName)
-print('Do you want to play a game?')
-Join = input('Would you like to join me?')
-if Join == 'yes' or 'Yes':
-  print("Great," + myName + '!')
+print('Hello,'+ myName )
+print('It is good to meet you' + myName)
+print('Do you want to play a game with me?')
+Join=input()
+if Join == 'yes':
+  print ('The game starts.')
+else: 
+  print ('Good night!')
+print('Guess my favorite programming language! You can try once!!!')
+pl=input()
+if pl == 'python' or 'Python':
+  print('Congrats! You won!')
+else: 
+  print(':( you lost')
+print (' I have homeworks at math, could you help me?')
+x=1
+y=2
+print('How much is 1+2? Write the answer in letters')
+number=input()
+if number == 'three':
+  print ('That is the correct answer!')
 else:
-  print(':(')
+  print ('You are wrong!')
+print('Thank you!:D Enjoy your day!')
